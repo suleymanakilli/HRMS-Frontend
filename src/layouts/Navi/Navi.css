@@ -1,0 +1,101 @@
+.navi{
+    font-family: -webkit-pictograph;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    font-weight: bolder;
+    font-size: larger;
+}
+.menu-item{
+    cursor: pointer;
+}
+.menu-items-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+.menu-first-part{
+    display: flex;
+}
+.menu-first-part .home{
+    color: #8707c1;
+    font-weight: bold;
+    font-family: cursive;
+}
+.menu-first-part .search-job span{
+    margin-right: 3px;
+}
+.menu-first-part .search-job svg{
+    vertical-align: bottom;
+}
+.menu-first-part>*{
+    margin-right: 20px;
+}
+.menu-first-part>*:hover{
+    color: #8316b5;
+}
+.menu-second-part{
+    display: flex;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: dimgray;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.menu-second-part .dropdown-items{
+    position: absolute;
+    top: 70px;
+    background-color: white;
+    width: -webkit-fill-available;
+    padding: 10px 20px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.menu-second-part #dropdown-items>*:hover{
+    color: #b7b7b7;
+}
+.menu-second-part .dropdown-items{
+    transform: translateY(-2em);
+    z-index: -1;
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    opacity: 0;
+}
+.menu-second-part  .active{
+    z-index: 1;
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 0s, 0s, 0.3s;
+}
+
+
+
+.menu-second-part #dropdown-items>*{
+    margin-bottom: 5px;
+}
+#dropdown-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-second-part>*{
+    margin-right: 10px;
+}
+.menu-second-part .auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-second-part .auth .login{
+    font-weight: 800;
+}
+.menu-second-part .auth .register{
+    font-weight: normal;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 600px){
+    .menu-second-part{
+        display: none;
+    }
+}
