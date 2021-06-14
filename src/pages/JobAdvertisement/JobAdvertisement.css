@@ -1,0 +1,34 @@
+.job-advertisement-component{
+    margin-bottom: 50px;
+}
+.job-advertisement{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    height: 8vw;
+    min-height: 130px;
+    cursor: pointer;
+}
+.job-advertisement:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.02);
+}
+.job-advertisement-container{
+    padding: 15px;
+    height: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.job-advertisement-container .header{
+    display: flex;
+    flex-direction: column;
+}
+.job-advertisement-container .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.job-advertisement-container .bottom .left-side{
+    width: fit-content;
+}

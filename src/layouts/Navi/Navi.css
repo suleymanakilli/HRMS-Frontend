@@ -57,9 +57,9 @@
 }
 .menu-second-part .dropdown-items{
     transform: translateY(-2em);
-    z-index: -1;
     transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
     opacity: 0;
+    font-size: large;
 }
 .menu-second-part  .active{
     z-index: 1;
@@ -93,8 +93,13 @@
     font-weight: normal;
     font-size: 13px;
 }
-
+@media screen and (max-width: 700px){
+    .navi{
+        font-size: 16px;
+    }
+}
 @media screen and (max-width: 600px){
+    
     .menu-second-part{
         display: none;
     }
