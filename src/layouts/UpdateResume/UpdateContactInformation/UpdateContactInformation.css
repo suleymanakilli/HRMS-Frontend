@@ -1,0 +1,16 @@
+.update-contact-information-container .container{
+    margin-top: 0;
+    padding: 0px 25px;
+    
+}
+.update-contact-information-container label{
+    color: #a2a2a2;
+    font-size: 14px;
+}
+.update-contact-information-container .display-flex{
+    display: flex;
+    flex-direction: row;
+}
+.update-contact-information-container .container{
+    width: -webkit-fill-available;
+}

@@ -1,0 +1,15 @@
+.login-form h1{
+    color: #8707c1;
+    text-align: center;
+}
+.login-form .label{
+    margin-bottom: 5px;
+}
+
+.login-form .container{
+    margin-bottom: 15px;
+}
+.form-route{
+    text-align: center;
+    margin-top: 10px;
+}

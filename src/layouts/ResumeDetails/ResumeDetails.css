@@ -1,0 +1,207 @@
+
+.resume-detail-for-user-container{
+    font-family: cursive;
+    margin-bottom: 100px;
+    display: flex;
+}
+.resume-detail-for-user-container .side-bar{
+    
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.resume-detail-for-user-container .side-bar .fields-on-resume{
+    margin-bottom: 30px;
+
+}
+.resume-detail-for-user-container .side-bar .header{
+    font-weight: 900;
+    font-size: large;
+}
+.resume-detail-for-user-container .side-bar .item{
+    display: flex;
+    cursor: pointer;
+    padding: 3px;
+    margin-top: 10px;
+
+}
+.resume-detail-for-user-container .side-bar .item:hover{
+    background-color: #f3eaf5;
+}
+.resume-detail-for-user-container .side-bar .item:hover>.text,.resume-detail-for-user-container .side-bar .item:hover svg{
+    color: #8707c1 !important;
+}
+.resume-detail-for-user-container .side-bar .item .text{
+    margin-left: 1vw;
+    color: #929292;
+}
+.resume-detail-for-user-container .button-container{
+    text-align: right;
+    margin-right: 2vw;
+}
+.resume-detail-for-user-container .button-container button,.resume-detail-for-user-container .header button{
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.resume-detail-for-user-container .button-container .accept,.resume-detail-for-user-container .header button{
+    margin-right: 10px;
+    background-color: white;
+    color: #8707c1;
+    border: 1px solid #8707c1;
+}
+.resume-detail-for-user-container .button-container .accept:hover,.resume-detail-for-user-container .header button:hover{
+    background-color: #8707c1;
+    color: white;
+    border: 1px solid white;
+}
+.resume-detail-for-user-container .button-container .cancel{
+    background-color: white;
+    color: #8707c1;
+    border: 1px solid #8707c1;
+}
+.resume-detail-for-user-container .button-container .cancel:hover{
+    background-color: #8707c1;
+    color: white;
+    border: 1px solid white;
+}
+.resume-detail-for-user-container .resume-content{
+    margin: 0 20px;
+    width: -webkit-fill-available;
+}
+.resume-detail-for-user-container a{
+    color: inherit;
+}
+.resume-detail-for-user-container h1{
+    color: #8707c1;
+    text-align: center;
+}
+.resume-detail-for-user-container .container{
+    background-color: #f7f7f7;
+    margin-top: 30px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.resume-detail-for-user-container .hover:hover{
+    border: 1px dashed #8e8e8e !important;
+    cursor: pointer;
+}
+
+.resume-detail-for-user-container .content span{
+    
+    font-size: 20px;
+    color: #666;
+}
+.resume-detail-for-user-container .header{
+    margin-bottom: 10px;
+    display: flex;
+}
+.resume-detail-for-user-container .header button{
+
+}
+.resume-detail-for-user-container .header span{
+    color: #8707c1;
+    font-size: 30px
+}
+.resume-detail-for-user-container .contact-info-content,.work-experience-content,.education-information-content,.languages-content{
+    display: flex;
+}
+.resume-detail-for-user-container .work-experience-content .second-part{
+    margin-right: 30px;
+}
+.resume-detail-for-user-container .contact-work-education .first-part{
+    margin-right: 30px;
+}
+.resume-detail-for-user-container .contact-info-content img{
+    width: 150px !important;
+    height: 150px !important;
+}
+.resume-detail-for-user-container .contact-work-education img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.resume-detail-for-user-container .contact-work-education .second-part{
+    width: -webkit-fill-available;
+}
+
+.resume-detail-for-user-container .contact-info-content .second-part .name span {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+.resume-detail-for-user-container .contact-work-education .second-part .infos{
+    display: grid;
+    grid-template-columns: calc(100%/2) calc(100%/2) 
+}
+.resume-detail-for-user-container .contact-work-education .second-part .infos .info-item{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.resume-detail-for-user-container .contact-work-education .second-part .infos .info-item .placeholder{
+    font-size: 14px;
+    color: #a2a2a2;
+}
+.resume-detail-for-user-container .work-experience-content:not(:last-child),.education-information-content:not(:last-child){
+    padding-bottom: 30px;
+    border-bottom: 1px solid gainsboro ;
+}
+
+.resume-detail-for-user-container .languages-container .content img{
+    width: 20px;
+}
+.resume-detail-for-user-container .languages-container .content:not(:last-child){
+    padding-bottom: 30px;
+    border-bottom: 1px solid gainsboro;
+}
+.resume-detail-for-user-container .languages-container .language-content-headers,.languages-container .languages-content{
+    margin: 20px 20% ;
+    display: flex;
+    justify-content: space-between;
+}
+.resume-detail-for-user-container .languages-container .language-content-headers .language,.languages-container .language-content-headers .level{
+    color: #ef8c00;
+    font-size: x-large;
+    font-weight: bold;
+}
+.resume-detail-for-user-container .languages-container .language-content-headers .language,.languages-container .languages-content .content-language{
+    margin-right: 20%;
+}
+.resume-detail-for-user-container .skills-container .skills-content-container{
+    display: flex;
+}
+.resume-detail-for-user-container .skills-container .skills-content-container .skills-content{
+    background-color: #41b883;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 3px 0;
+}
+.resume-detail-for-user-container .skills-container .skills-content-container .skills-content span{
+    color: white;
+    padding: 0px 15px;
+}
+
+@media screen and (max-width: 600px){
+    .resume-detail-for-user-container .contact-work-education .first-part{
+        display: none;
+    }
+    .resume-detail-for-user-container .contact-work-education .second-part .infos{
+        display: grid;
+        grid-template-columns: calc(100%)
+    }
+    .resume-detail-for-user-container .languages-container .language-content-headers,.languages-container .languages-content{
+        margin: 20px 0 ;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 800px){
+    .resume-detail-for-user-container .contact-work-education .second-part .infos{
+        display: grid;
+        grid-template-columns: calc(100%)
+    }
+}

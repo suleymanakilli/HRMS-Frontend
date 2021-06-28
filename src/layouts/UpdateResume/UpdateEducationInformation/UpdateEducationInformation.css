@@ -1,0 +1,12 @@
+.update-education-information-container{
+    width: -webkit-fill-available;
+}
+.update-education-form{
+    width: -webkit-fill-available;
+}
+.update-education-form .display-flex{
+    display: flex;
+}
+.update-education-form .container{
+    width: -webkit-fill-available;
+}

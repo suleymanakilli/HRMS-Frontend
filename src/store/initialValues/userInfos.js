@@ -1,0 +1,1 @@
+export const userInfos=localStorage.getItem("state")?JSON.parse(localStorage.getItem("state")):{}

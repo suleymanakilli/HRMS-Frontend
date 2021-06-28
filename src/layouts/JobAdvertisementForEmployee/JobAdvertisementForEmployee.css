@@ -1,0 +1,37 @@
+
+.job-advertisement-for-employees-container{
+    overflow-x: auto;
+}
+
+.job-advertisement-for-employees-container table{
+    border-collapse: collapse;
+    font-family: cursive;
+}
+.job-advertisement-for-employees-container table thead tr th{
+    color: #8707c1;
+    font-size: 20px;
+    
+}
+
+.job-advertisement-for-employees-container table th,.job-advertisement-for-employees-container table td{
+    text-align: left;
+    padding: 5px;
+}
+.job-advertisement-for-employees-container table .check{
+    width: fit-content;
+    background-color: green;
+}
+.job-advertisement-for-employees-container table .clear{
+    width: fit-content;
+    background-color: red;
+}
+.job-advertisement-for-employees-container table .icon{
+    padding: 1px;
+    cursor: pointer;
+}
+.job-advertisement-for-employees-container tr{
+    
+}
+.job-advertisement-for-employees-container table tbody tr:nth-child(odd) {
+    background-color: #dddddd;
+  }

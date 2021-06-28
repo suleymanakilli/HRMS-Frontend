@@ -1,0 +1,9 @@
+.update-language-information-container{
+    width:-webkit-fill-available;
+}
+.update-language-information-container .display-flex{
+    display: flex;
+}
+.update-language-information-container .container{
+    width:-webkit-fill-available;
+}

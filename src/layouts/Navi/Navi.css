@@ -4,6 +4,12 @@
     font-weight: bolder;
     font-size: larger;
 }
+.navi #dropdown-items a{
+    color: dimgray;
+}
+.navi #dropdown-items a:hover{
+    color: #b7b7b7;
+}
 .menu-item{
     cursor: pointer;
 }
@@ -100,7 +106,10 @@
 }
 @media screen and (max-width: 600px){
     
-    .menu-second-part{
+    .menu-second-part .menu-item .login{
         display: none;
+    }
+    .menu-second-part>*{
+        margin-right: 0;
     }
 }

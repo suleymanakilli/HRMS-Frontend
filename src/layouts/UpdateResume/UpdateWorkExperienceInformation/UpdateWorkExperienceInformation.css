@@ -1,0 +1,12 @@
+.update-work-experience-information-container{
+    width: -webkit-fill-available;
+}
+.update-work-experience-form{
+    width: -webkit-fill-available;
+}
+.update-work-experience-form .display-flex{
+    display: flex;
+}
+.update-work-experience-form .container{
+    width: -webkit-fill-available;
+}

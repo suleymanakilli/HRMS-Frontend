@@ -1,0 +1,78 @@
+.job-advertisement-with-filters{
+   font-family: cursive;
+}
+.job-advertisement-with-filters .header h1{
+    color: #8707c1;
+    text-align: center;
+}
+.job-advertisement-with-filters .header .advertisement-per-page{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.job-advertisement-with-filters .header .advertisement-per-page .label{
+    margin-right: 20px;
+}
+.job-advertisement-with-filters .filter-content{
+    display: flex;
+    margin: 2vw 5vw;
+}
+.job-advertisement-with-filters .filters{
+    background-color: #f9f9f9;
+    margin-right: 30px;
+    padding: 10px 15px;
+    height: fit-content;
+}
+.job-advertisement-with-filters .filters .filter{
+    margin-bottom: 20px;
+}
+.job-advertisement-with-filters .filters .filter select{
+    width: -webkit-fill-available;
+}
+.job-advertisement-with-filters .filters .filter-footer .button-apply{
+    text-align: center;
+}
+.job-advertisement-with-filters .filters .filter-footer .button-apply button{
+    background-color: white;
+    color: #8707c1;
+    border: 1px solid #8707c1;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.job-advertisement-with-filters .filters .filter-footer .button-apply button:hover{
+    background-color: #8707c1;
+    color: white;
+    border: 1px solid white;
+}
+.job-advertisement-with-filters .job-advertisements{
+    width: -webkit-fill-available;
+
+}
+.job-advertisement-with-filters .footer{
+    margin-bottom: 50px;
+    text-align: -webkit-center;
+}
+.job-advertisement-with-filters .footer .pages{
+    display: flex;
+    display: flex;
+    border: 1px solid gainsboro;
+    width: min-content;
+}
+.job-advertisement-with-filters .footer .pages .previous-page{
+    border-right: 1px solid gainsboro;
+    padding: 0 5px;
+}
+.job-advertisement-with-filters .footer .pages .content{
+    padding: 0 10px;
+    border-right: 1px solid gainsboro;
+}
+.job-advertisement-with-filters .footer .pages .next-page{
+    padding: 0 5px;
+}
+.page-content{
+    cursor: pointer;
+}
+.page-content:hover{
+    background-color: gainsboro;
+}

@@ -1,0 +1,89 @@
+.job-advertisement-details-container{
+    font-family: cursive;
+    margin-bottom: 50px;
+}
+.job-advertisement-details-container .header .title{
+    display: flex;
+    justify-content: space-between;
+}
+.job-advertisement-details-container .header .title .job-title span{
+    color: #8707c1;
+    font-size: 2.2vw;
+    font-weight: bold;
+}
+.job-advertisement-details-container .header .title .favorite-container .favorite{
+    display: flex;
+    padding: 5px 10px;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+}
+.job-advertisement-details-container .header .title .favorite-container .favorite>span{
+    margin-left: 10px;
+}
+.job-advertisement-details-container .location{
+    display: flex;
+}
+.job-advertisement-details-container .location .location-name span{
+    font-size: 23px;
+}
+
+.job-advertisement-details-container .container{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.job-advertisement-details-container .container .header{
+    margin-bottom: 20px;
+    color: #8707c1;
+    font-size: 21px;
+}
+
+.job-advertisement-details-container .container .content .content-item{
+    display: flex;
+    margin-bottom: 5px;
+    
+    padding: 5px 20px;
+    
+}
+.job-advertisement-details-container .position-info-container .content .content-item:nth-child(odd){
+    background-color: gainsboro;
+}
+.job-advertisement-details-container .container .content .content-item .label{
+    color: #666;
+    width: 250px;
+}
+.job-advertisement-details-container .apply-btn{
+    text-align: center;
+}
+.job-advertisement-details-container .apply-btn button{
+    background-color: #403e3e;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: larger;
+    margin-top: 50px;
+}
+.job-advertisement-details-container .apply-btn button:hover{
+    background-color: #585555;
+}
+
+@media screen and (max-width: 600px){
+    .job-advertisement-details-container .header .title span{
+        font-size: 21px;
+    }
+    .job-advertisement-details-container .container .content .content-item .label{
+        width: initial;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .job-advertisement-details-container .header .title span{
+        font-size: 25px;
+    }
+    
+}

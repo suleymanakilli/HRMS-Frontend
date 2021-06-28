@@ -9,7 +9,9 @@ export default function JobAdvertisementLayout() {
     const [cities, setcities] = useState([])
     useEffect(() => {
         let cityService=new CityService();
-        cityService.getCities().then(result=>setcities(result.data.data));
+        let isMounted = true;  
+        cityService.getCities().then(result=>{if (isMounted) setcities(result.data.data)});
+        return () => { isMounted = false };
     }, [])
     return (
         <div>

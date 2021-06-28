@@ -1,0 +1,128 @@
+
+.resume-detail-for-employer-container{
+    font-family: cursive;
+    margin-bottom: 50px;
+}
+.resume-detail-for-employer-container a{
+    color: inherit;
+}
+.resume-detail-for-employer-container h1{
+    color: #8707c1;
+    text-align: center;
+}
+.resume-detail-for-employer-container .container{
+    background-color: #f7f7f7;
+    margin-top: 30px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.resume-detail-for-employer-container .resume-item{
+    
+}
+.resume-detail-for-employer-container .content span{
+    
+    font-size: 20px;
+    color: #666;
+}
+.resume-detail-for-employer-container .header{
+    margin-bottom: 10px;
+}
+.resume-detail-for-employer-container .header span{
+    color: #8707c1;
+    font-size: 30px
+}
+.resume-detail-for-employer-container .contact-info-content,.work-experience-content,.education-information-content,.languages-content{
+    display: flex;
+}
+.resume-detail-for-employer-container .contact-work-education .first-part{
+    margin-right: 30px;
+}
+.resume-detail-for-employer-container .contact-info-content img{
+    width: 150px !important;
+    height: 150px !important;
+}
+.resume-detail-for-employer-container .contact-work-education img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.resume-detail-for-employer-container .contact-work-education .second-part{
+    width: -webkit-fill-available;
+}
+
+.resume-detail-for-employer-container .contact-info-content .second-part .name span {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+.resume-detail-for-employer-container .contact-work-education .second-part .infos{
+    display: grid;
+    grid-template-columns: calc(100%/2) calc(100%/2) 
+}
+.resume-detail-for-employer-container .contact-work-education .second-part .infos .info-item{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.resume-detail-for-employer-container .contact-work-education .second-part .infos .info-item .placeholder{
+    font-size: 14px;
+    color: #a2a2a2;
+}
+.resume-detail-for-employer-container .work-experience-content:not(:last-child),.education-information-content:not(:last-child){
+    padding-bottom: 30px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.resume-detail-for-employer-container .languages-container .content img{
+    width: 20px;
+}
+.resume-detail-for-employer-container .languages-container .content:not(:last-child){
+    padding-bottom: 30px;
+    border-bottom: 1px solid gainsboro;
+}
+.resume-detail-for-employer-container .languages-container .language-content-headers,.languages-container .languages-content{
+    margin: 20px 20% ;
+    display: flex;
+    justify-content: space-between;
+}
+.resume-detail-for-employer-container .languages-container .language-content-headers .language,.languages-container .language-content-headers .level{
+    color: #ef8c00;
+    font-size: x-large;
+    font-weight: bold;
+}
+.resume-detail-for-employer-container .languages-container .language-content-headers .language,.languages-container .languages-content .content-language{
+    margin-right: 20%;
+}
+.resume-detail-for-employer-container .skills-container .skills-content-container{
+    display: flex;
+}
+.resume-detail-for-employer-container .skills-container .skills-content-container .skills-content{
+    background-color: #41b883;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 3px 0;
+}
+.resume-detail-for-employer-container .skills-container .skills-content-container .skills-content span{
+    color: white;
+    padding: 0px 15px;
+}
+@media screen and (max-width: 600px){
+    .resume-detail-for-employer-container .contact-work-education .first-part{
+        display: none;
+    }
+    .resume-detail-for-employer-container .contact-work-education .second-part .infos{
+        display: grid;
+        grid-template-columns: calc(100%)
+    }
+    .resume-detail-for-employer-container .languages-container .language-content-headers,.languages-container .languages-content{
+        margin: 20px 0 ;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 800px){
+    .resume-detail-for-employer-container .contact-work-education .second-part .infos{
+        display: grid;
+        grid-template-columns: calc(100%)
+    }
+}

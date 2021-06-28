@@ -1,0 +1,35 @@
+
+.employer-list-container{
+    overflow-x: auto;
+}
+.employer-list-container table{
+    border-collapse: collapse;
+    font-family: cursive;
+}
+.employer-list-container table thead tr th{
+color: #8707c1;
+    font-size: 20px;
+}
+
+.employer-list-container table th,.employer-list-container table td{
+    text-align: left;
+    padding: 5px;
+}
+.employer-list-container table .check{
+    width: fit-content;
+    background-color: green;
+}
+.employer-list-container table .clear{
+    width: fit-content;
+    background-color: red;
+}
+.employer-list-container table .icon{
+    padding: 1px;
+    cursor: pointer;
+}
+.employer-list-container tr{
+    
+}
+.employer-list-container table tbody tr:nth-child(odd) {
+    background-color: #dddddd;
+  }

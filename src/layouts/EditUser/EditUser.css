@@ -1,0 +1,48 @@
+.edit-form{
+
+}
+.edit-form img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.edit-form .label{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.edit-form .button-container{
+    margin-top: 20px;
+}
+.edit-form .button-container>*{
+    margin-right: 10px;
+}
+
+.edit-form .button-container button{
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.edit-form .button-container .accept,.edit-form .button-container button{
+    margin-right: 10px;
+    background-color: white;
+    color: #8707c1;
+    border: 1px solid #8707c1;
+}
+.edit-form .button-container .accept:hover,.edit-form .button-container button:hover{
+    background-color: #8707c1;
+    color: white;
+    border: 1px solid white;
+}
+.edit-form .button-container .cancel{
+    background-color: white;
+    color: #8707c1;
+    border: 1px solid #8707c1;
+}
+.edit-form .button-container .cancel:hover{
+    background-color: #8707c1;
+    color: white;
+    border: 1px solid white;
+}

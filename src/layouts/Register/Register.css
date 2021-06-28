@@ -1,0 +1,35 @@
+.register-form{
+
+}
+.register-form h1{
+    color: #8707c1;
+    text-align: center;
+}
+.register-form .label{
+    margin-bottom: 5px;
+}
+.register-form .full-name{
+    display: flex;
+    justify-content: space-between;
+}
+.register-form .full-name .first-name{
+    width: 49%;
+}
+.register-form .full-name .last-name{
+    width: 49%;
+}
+.register-form .container{
+    margin-bottom: 15px;
+}
+.route-to-employer-register{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.form-route a{
+    color: #403e3e;
+}
+.form-route a:hover{
+    text-decoration: underline;
+}
+

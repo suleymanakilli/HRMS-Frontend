@@ -1,0 +1,151 @@
+.is-blurred{
+    
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+    
+}
+.user-resumes-container{
+    font-family: cursive;
+    
+}
+.user-resumes-container .blur {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  }
+
+
+.user-resumes-container .container{
+    border: 1px solid gainsboro;
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.user-resumes-container .container .header{
+    display: flex;
+    justify-content: space-between;
+}
+.user-resumes-container .container .header span{
+    color: #8707c1;
+}
+.user-resumes-container .add-user-resume-pop-up-container{
+    text-align: -webkit-center;
+    display: none;
+    position: fixed;
+    
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.user-resumes-container .add-user-resume-pop-up{
+    padding: 20px;
+    border: 1px solid gainsboro;
+    background-color: white;
+    width: 500px;
+    height: fit-content
+}
+.user-resumes-container .add-user-resume-pop-up .button-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.user-resumes-container button{
+    background-color: white;
+    color: #8707c1;
+    border: 1px solid #8707c1;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.user-resumes-container button:hover{
+    background-color: #8707c1;
+    color: white;
+    border: 1px solid white;
+}
+.user-resumes-container .container .right-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.user-resumes-container .container .second-part .header{
+    font-size: larger;
+    font-weight: bold;
+}
+.user-resumes-container .container .right-part .dropdown-icon{
+    text-align: -webkit-right;
+}
+.user-resumes-container .container .right-part .last-update .last-update-text{
+    color: #929292;
+}
+
+
+.card{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    margin: 30px 0;
+    background-color: #f8f9fa;
+    height: fit-content;
+    min-height: 130px;
+    cursor: auto;
+    display: flex;
+    padding: 10px 0 0 10px;
+    
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+}
+.short-resume-card .first-part{
+    align-self: center;
+}
+.short-resume-card .first-part img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.short-resume-card .second-part{
+    justify-content: space-between;
+    margin: 0 2vw;
+    width: -webkit-fill-available;
+    display: flex;
+}
+.short-resume-card .third-part button{
+    background-color: #403e3e;
+    color: white;
+    cursor: pointer;
+    width: 8vw;
+    height: 2vw;
+    min-width: 120px;
+    min-height: 30px;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+.short-resume-card .third-part button:hover{
+    background-color: #585555;
+}
+
+.cover-letter-content .cover-letter-card{
+    display: flex;
+    justify-content: space-between;
+}
+.cover-letter-content .cover-letter-card .first-part{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+.cover-letter-content .cover-letter-card .second-part{
+    margin: 0 2vw;
+}

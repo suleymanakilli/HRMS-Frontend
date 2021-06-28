@@ -15,6 +15,7 @@
 .custom-dropdown-dropdown-items{
     position: absolute;
     top: 50px;
+    text-align: left;
     background-color: white;
     width: -webkit-fill-available;
     border: 1px solid gainsboro;

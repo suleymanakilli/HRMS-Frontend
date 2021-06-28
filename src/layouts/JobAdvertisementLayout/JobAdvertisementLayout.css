@@ -32,6 +32,7 @@
 }
 .search-container .input input:focus-visible{
     outline: none;
+    box-shadow: none;
 }
 .search-container .button button{
     background-color: #403e3e;
@@ -73,6 +74,9 @@
 }
 #detail-search-container{
     align-self: center;
+}
+h1{
+    
 }
 @media screen and (max-width: 1230px){
     .search-container-item>:nth-child(1){

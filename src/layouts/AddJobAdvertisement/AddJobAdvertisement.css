@@ -1,31 +1,4 @@
-input{
-    height: 1.5vw;
-    width: -webkit-fill-available;;
-    min-height: 25px;
-    border-radius: 5px;
-    border: 1px solid #9a9a9a;
-}
-select:hover{
-    border: 1px solid #8316b5;
-}
-select:focus-visible{
-    outline: none;
-}
-input:focus,textarea:focus{
-    outline: none;
-    border:none;
-    box-shadow: 0 0 0 0.35rem rgb(217 155 245);
-    
-}
-input:hover,textarea:hover{
-    border: 1px solid #8316b5;
-}
-textarea{
-    width: -webkit-fill-available;
-    height: 20vw;
-    border-radius: 10px;
-    border: 1px solid #9a9a9a;
-}
+
 .form-container{
     font-family: cursive;
     margin-bottom: 100px;
@@ -91,7 +64,7 @@ form select{
     cursor: pointer;
     width: 8vw;
     height: 2vw;
-    min-width: 80px;
+    min-width: 120px;
     min-height: 30px;
     font-size: larger;
     border-radius: 5px;
